@@ -1,0 +1,39 @@
+
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+
+.about-container h2 {
+  color: #1e3a5f;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.project-info {
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+.team-info {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
