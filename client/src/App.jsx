@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-// Components
+
 import Navbar from './Component/Navbar'
 import Footer from './Component/Footer'
 
-// Pages
+
 import HomePage from './Pages/HomePage'
 import Login from './Pages/Login'
 import Allocation from './Pages/Allocation'
