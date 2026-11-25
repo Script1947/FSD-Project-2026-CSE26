@@ -1,0 +1,63 @@
+
+.drivers-container {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  overflow-x: auto;
+}
+
+.drivers-container h2 {
+  color: #1e3a5f;
+}
+
+.drivers-container p {
+  color: #555;
+}
+
+.driver-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.driver-table th,
+.driver-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.driver-table th {
+  background: #1e3a5f;
+  color: white;
+}
+
+.driver-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.driver-table tr:hover {
+  background: #e6eef7;
+}
+
+.status {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.status.available {
+  color: green;
+  background: #dcfce7;
+}
+
+.status.allocated {
+  color: #b45309;
+  background: #fef3c7;
+}
+
+@media (max-width: 768px) {
+  .driver-table {
+    width: 100%;
+    min-width: 600px;
+  }
+}
